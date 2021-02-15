@@ -16,7 +16,7 @@ class UserController extends Controller
         
         $response = "";
         
-        /* Para crear el primer JSON de referencia */
+
 		
 
 		//Leer el contenido de la petición
