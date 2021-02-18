@@ -83,6 +83,8 @@ class UserController extends Controller
 						$user->save();
 
 						$respuesta = $token;
+                        
+                        $respuesta = "Se ha iniciado sesión correctamente.";
 
 					} else{
 						$respuesta = "Contraseña incorrecta";
