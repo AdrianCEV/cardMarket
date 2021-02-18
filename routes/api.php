@@ -24,6 +24,8 @@ Route::prefix('users')->group(function () {
 	Route::post('/create',[UserController::class, 'createUser']);
     
 	Route::post('/login',[UserController::class,'login']);
+    
+    Route::post('/recoverpw',[UserController::class,'recoverPassword']);
 
 });
 
